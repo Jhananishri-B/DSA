@@ -6,7 +6,7 @@ class Solution {
         }
         int max=0;
         for(int n:map.keySet()){
-            if(map.containsKey(n + 1)){
+            if(map.containsKey(n+1)){
                 max=Math.max(max,map.get(n)+map.get(n+1));
             }
         }
